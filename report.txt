@@ -1,0 +1,39 @@
+STUDY REPORT
+Total hours: 68.0
+Study blocks: 51
+Average block: 80.0 min
+Rejected rows: 3
+
+Hours per topic
+topic
+Python        28.5
+Maths         14.0
+Algorithms    12.0
+Flask          6.5
+Software       6.0
+Unknown        1.0
+
+Hours per session
+session
+class      33.0
+weekend    16.5
+library    10.0
+evening     8.5
+
+Hours per day
+date
+2026-11-09    5.0
+2026-11-10    5.0
+2026-11-11    5.0
+2026-11-12    4.0
+2026-11-13    5.0
+2026-11-14    3.0
+2026-11-15    4.5
+2026-11-16    5.0
+2026-11-17    5.5
+2026-11-18    3.0
+2026-11-19    4.0
+2026-11-20    5.0
+2026-11-21    4.5
+2026-11-22    4.5
+2026-11-23    5.0
