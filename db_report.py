@@ -9,7 +9,7 @@ def get_hours_per_topic():
     rows = cur.fetchall()
     conn.close()
     return rows
-rows = get_hours_per_topic()
 if __name__ == "__main__":
+    rows = get_hours_per_topic()
     for topic, hours in rows:
         print(f"{topic}: {hours}")
