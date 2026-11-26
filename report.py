@@ -36,4 +36,5 @@ with open("report.txt", "w") as f:
     f.write(by_session.to_string() + "\n\n")
     f.write("Hours per day\n")
     f.write(by_date.to_string() + "\n")
-
+clean ["minutes"] = clean["minutes"].astype(int)
+clean.to_csv("clean_log.csv", index=False)
