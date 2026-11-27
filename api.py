@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+from fastapi.responses import FileResponse
+
 from db_report import get_hours_per_topic
 
 app = FastAPI()
@@ -7,3 +9,6 @@ app = FastAPI()
 def hours_per_topic():
     rows = get_hours_per_topic()
     return [{"topic": t, "hours": float(h)} for t, h in rows]
+@app.get("/")
+def dashboard():
+    return FileResponse("dashboard.html")
